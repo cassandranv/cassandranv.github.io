@@ -1,6 +1,17 @@
 style.css
-h1, h2, p{
+body { margin: auto;
+	width: 300px;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-family: "arial", sans-serif;
 	color: red;
+}
+
+h1, h2, h3, h4 {
+	color: yellow 
+	background-color 
 }
 
 p {
@@ -17,3 +28,11 @@ p {
   	padding: 10px 15x 13px 15x; 
 
   }
+
+ td, th {border-top: 30px solid #ff0000;
+  	border-bottom: 30px solid #ff0000
+  }
+
+ table {
+ 	border-collapse: collapse;
+ }
